@@ -37,7 +37,7 @@ export function UserPhoto({ imageUri, sizes = 'NORMAL' }: Props) {
         {
           width: containerSize,
           height: containerSize,
-          borderRadius: avatarSize / 2
+          borderRadius: containerSize / 2
         }
       ]}
     >
